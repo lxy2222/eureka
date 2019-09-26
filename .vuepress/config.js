@@ -112,6 +112,7 @@ const generateBlogSideBar = nodes => {
             const item = {
                 title: node.title.trim('/'),
                 collapsable: false,
+                sidebarDepth: 1,
                 children: generateBlogSideBar(node.children)
             };
             items.push(item);
@@ -133,8 +134,11 @@ module.exports = {
         ],
         sidebar:
         {
-            '/post/': generateBlogSideBar(generateNode(['..', 'post']))
-        }
-
+            '/post/': generateBlogSideBar(generateNode(['..', 'post'])),
+            '/':[
+                '/'
+            ]
+        },
+        sidebarDepth: 0,
     }
 };
