@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "debug": "node ./dev/my.js > ./dev/result.json",
         "dev": "vuepress dev",
         "build": "vuepress build"
     },

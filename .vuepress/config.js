@@ -139,6 +139,6 @@ module.exports = {
                 '/'
             ]
         },
-        sidebarDepth: 0,
+        sidebarDepth: 1,
     }
 };

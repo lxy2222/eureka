@@ -1,0 +1,47 @@
+[
+    {
+        "title": "algs4",
+        "collapsable": false,
+        "sidebarDepth": 1,
+        "children": [
+            [
+                "../post/algs4/algs4-Eclipse",
+                "在Eclipse中调用Algs4库"
+            ],
+            [
+                "../post/algs4/algs4-windows",
+                "在Windows上安装「算法 第四版」组件"
+            ],
+            {
+                "title": "other",
+                "collapsable": false,
+                "sidebarDepth": 1,
+                "children": [
+                    [
+                        "../post/algs4/other/ant-algs-based-on-csharp",
+                        "基于C#的蚁群算法实现"
+                    ],
+                    [
+                        "../post/algs4/other/golang-submission-error",
+                        "P0: Golang Submission Error"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "dotnet",
+        "collapsable": false,
+        "sidebarDepth": 1,
+        "children": [
+            [
+                "../post/dotnet/cli-app-in-csharp2",
+                "CLI App in C# 其二"
+            ],
+            [
+                "../post/dotnet/cli-app-in-csharp3",
+                "CLI App in C# 其三"
+            ]
+        ]
+    }
+]
